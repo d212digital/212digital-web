@@ -79,8 +79,7 @@ const Applications = () => {
 
       <h3 className="landing__section-title landing__applications-title">Applications</h3>
       <h4 className="landing__additional-title landing__applications-description">
-        With the help of components and layouts, we created four different applications. They are a good way
-        to get you started if you want to build something similar.
+        With the help of React components and layouts, we can create different applications to suit. Scalable and quick to implement
       </h4>
       <div className="applications__slider">
         <button

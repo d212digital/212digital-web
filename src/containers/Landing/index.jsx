@@ -17,7 +17,7 @@ import Applications from './components/Applications';
 import { changeThemeToDark, changeThemeToLight } from '../../redux/actions/themeActions';
 import { ThemeProps } from '../../shared/prop-types/ReducerProps';
 
-const logo = `${process.env.PUBLIC_URL}/img/landing/logo.svg`;
+const logo = `${process.env.PUBLIC_URL}/img/landing/logo3.png`;
 
 class Landing extends Component {
   static propTypes = {
@@ -53,7 +53,7 @@ class Landing extends Component {
                       onClick={() => scrollToComponent(this.About, { offset: -50, align: 'top', duration: 1000 })}
                       type="button"
                     >
-                      About EasyDEV
+                      About 212 Digital
                     </button>
                     <button
                       onClick={() => scrollToComponent(this.Features, {
@@ -85,10 +85,9 @@ class Landing extends Component {
                       className="landing__btn"
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://themeforest.net/item/easypro-developer-friendly-react-bootstrap-4-admin-template/
-                      21798550"
+                      href="https://212digital.co.uk/contact"
                     >
-                      Buy now for $28
+                      Get Started
                     </a>
                   </nav>
                 </div>

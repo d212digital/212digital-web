@@ -11,15 +11,11 @@ const Header = ({ onClick }) => (
     <Container>
       <Row>
         <Col md={12}>
-          <h2 className="landing__header-title">The best documented and cleanest coded
-            <b> React Bootstrap 4</b> Admin Template <br />+ <b>Seed Project</b> Inside!<br />
-            + (NEW) <b>Authorization</b> with Firebase, Auth0, Google and Facebook accounts
+          <h2 className="landing__header-title">212 Digital - coded with passion & using the latest technology stacks
+            to deliver bespoke projects.
           </h2>
-          <p className="landing__header-subhead">We guarantee you will always get the actual version of the template
-            with a bunch of{' '}
-            <Link className="landing__header-subhead-update" to="/documentation/changelog" target="_blank">
-              freshest updates
-            </Link>.
+          <p className="landing__header-subhead">212 Digital always use the latest, stable and most 
+          secure version of code for our solutions. 
           </p>
           <Link className="landing__btn landing__btn--header" to="/documentation/introduction" target="_blank">
             Check out the docs

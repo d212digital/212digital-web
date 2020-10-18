@@ -10,8 +10,8 @@ const feat05 = `${process.env.PUBLIC_URL}/img/landing/features/05_new.png`;
 const feat06 = `${process.env.PUBLIC_URL}/img/landing/features/06_new.png`;
 const feat07 = `${process.env.PUBLIC_URL}/img/landing/features/07_new.png`;
 const feat08 = `${process.env.PUBLIC_URL}/img/landing/features/08_new.png`;
-const feat09 = `${process.env.PUBLIC_URL}/img/landing/features/autorization.png`;
-const feat10 = `${process.env.PUBLIC_URL}/img/landing/features/video.png`;
+const feat09 = `${process.env.PUBLIC_URL}/img/landing/features/09_new.png`;
+const feat10 = `${process.env.PUBLIC_URL}/img/landing/features/10_new.png`;
 const Features = () => (
   <section className="landing__section">
     <Container>

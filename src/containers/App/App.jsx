@@ -75,11 +75,11 @@ class App extends Component {
         <Auth0Provider
           domain={auth0Config.domain}
           clientId={auth0Config.clientId}
-          redirectUri={`${window.location.origin}/easydev/dashboard_default`}
-          returnTo={`${window.location.origin}/easydev/dashboard_default`}
+          redirectUri={`${window.location.origin}/212digital/dashboard_default`}
+          returnTo={`${window.location.origin}/212digital/dashboard_default`}
           onRedirectCallback={this.onRedirectCallbackAuth0}
         >
-          <BrowserRouter basename="/easydev">
+          <BrowserRouter basename="/212digital">
             <I18nextProvider i18n={i18n}>
               <LoadScript
                 googleMapsApiKey="" /* Paste your Google Maps Api Key here */

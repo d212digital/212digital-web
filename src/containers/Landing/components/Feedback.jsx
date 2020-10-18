@@ -10,24 +10,27 @@ const Feedback = () => (
     <Container>
       <Row>
         <Col md={12}>
-          <h2 className="landing__feedback-title"><b>Hey guys!</b></h2>
+          <h2 className="landing__feedback-title"><b>Did you know?</b></h2>
           <p className="landing__feedback-subhead">
-            We are glad to offer you the EasyDev customization from light modernization to a super-custom
-            development according to your project.  Please, contact us via <b>biz@aspirity.com</b> to discuss our
-            work or just press the button below.
+            212 Digital can deliver a wide range of solutions from Admin dashboards, using Authorization with Firebase, Auth0, Google and Facebook accounts to fully 
+            functional eCommerce Stores built in React.
+            <br/><br/>
+            In addition to our modern full stack development approach we can offer services ranging from Wordpress development, and full Magento 
+            2 builds. Getting you the software you need or building it from scratch, we can help! 
           </p>
           <div className="landing__feedback-form">
             <a
               className="landing__btn landing__btn--feedback"
-              href="https://www.aspirity.com/contact-us"
+              href="https://212digital.co.uk/contact"
               rel="noopener noreferrer"
               target="_blank"
             >
-              Let{'\''}s work!
+              Get Started!
             </a>
           </div>
           <img className="landing__feedback-design-img" src={designAndCodeImg} alt="design and code" />
           <img className="landing__feedback-macbook-img" src={macbookImg} alt="macbook" />
+          
         </Col>
       </Row>
     </Container>

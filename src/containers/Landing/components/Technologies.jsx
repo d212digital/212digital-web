@@ -14,8 +14,8 @@ const Technologies = () => (
     <Container>
       <Row>
         <Col md={12}>
-          <h3 className="landing__section-title">The EasyDev based on popular and powerful technological stack.
-            That’s why it allows you to create massive and serious projects easily.
+          <h3 className="landing__section-title">Our Solutions are based on the latest, most popular and powerful technology stack.
+            Created with scalability and reliabilty in mind allowing you, to grow your business.
           </h3>
         </Col>
       </Row>

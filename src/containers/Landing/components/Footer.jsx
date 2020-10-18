@@ -9,8 +9,8 @@ const Footer = () => (
     <Container>
       <Row>
         <Col md={12}>
-          <p className="landing__footer-text">Made with love and tons of coffee in
-            <b><a target="_blank" rel="noopener noreferrer" href="http://themes.aspirity.com/"> Aspirity Studio</a></b>
+          <p className="landing__footer-text">Developed with love
+            <b> 212 Digital</b>
           </p>
         </Col>
       </Row>

@@ -15,7 +15,7 @@ const Technologies = () => (
             <div className="landing__code-wrap">
               <h3 className="landing__section-title">Fully Responsive</h3>
               <p className="landing__section-description">
-                {'You can use the Easydev on all devices - it\'ll look great everywhere!'}
+                {'You can use our solutions on all devices - it\'ll work and function everywhere!'}
               </p>
               <p className="landing__section-description">
                 Lazy loading allows your device to display the graphic content softly and correctly

@@ -54,7 +54,7 @@ const Demos = ({ theme, changeToLight, changeToDark }) => (
     <Container>
       <Row>
         <Col md={12}>
-          <h3 className="landing__section-title">EasyDEV Demos</h3>
+          <h3 className="landing__section-title">Some of our projects</h3>
         </Col>
       </Row>
       <Row className="landing__demo-wrap">

@@ -6,17 +6,16 @@ const Purchase = () => (
     <Container>
       <Row>
         <Col md={12}>
-          <h3 className="landing__section-title">Get the <b>EasyDEV React Bootstrap 4 Admin Template</b> only for
-            $28 and save your time and nerves
+          <h3 className="landing__section-title">Get in touch <b>212 Digital can deliver bespoke solutions</b> save your time and nerves
           </h3>
           <div className="landing__center-btn">
             <a
               className="landing__btn landing__btn--gradient"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://themeforest.net/item/easypro-developer-friendly-react-bootstrap-4-admin-template/21798550"
+              href="https://212digital.co.uk/contact"
             >
-              Purchase now for $28
+              Let us do the hard work!  
             </a>
           </div>
         </Col>
