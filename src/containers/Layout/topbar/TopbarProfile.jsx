@@ -5,7 +5,7 @@ import TopbarMenuLink from './TopbarMenuLink';
 import { UserProps, AuthOProps } from '../../../shared/prop-types/ReducerProps';
 import { hookAuth0 } from '../../../shared/components/auth/withAuth0';
 
-const Ava = `${process.env.PUBLIC_URL}/img/ava.png`;
+const Ava = `${process.env.PUBLIC_URL}/img/me.png`;
 
 class TopbarProfile extends Component {
   static propTypes = {
@@ -26,7 +26,7 @@ class TopbarProfile extends Component {
   };
 
   logout = () => {
-    localStorage.removeItem('easydev');
+    localStorage.removeItem('212igital');
   }
 
   render() {

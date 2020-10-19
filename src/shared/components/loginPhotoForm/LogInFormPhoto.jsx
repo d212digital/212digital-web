@@ -73,7 +73,7 @@ class LogInFormPhoto extends Component {
               <EyeIcon />
             </button>
             <div className="account__forgot-password">
-              <NavLink to="/reset_password_photo">Forgot a password?</NavLink>
+              <NavLink to="/reset_password_photo">Forgot password?</NavLink>
             </div>
           </div>
         </div>

@@ -27,19 +27,19 @@ const AppsEnum = {
 const sliderData = {
   [AppsEnum.Email]: {
     img: email,
-    caption: 'Simple and convenient application for collecting and viewing letters',
+    caption: 'Simple and convenient email application',
   },
   [AppsEnum.Calendar]: {
     img: calendar,
-    caption: 'Do not miss a single important event in your life with the calendar application',
+    caption: 'Do not miss a single event with our fully integrated calendar application',
   },
   [AppsEnum.Chat]: {
     img: chat,
-    caption: 'Communicate, make new acquaintances, save the history of correspondence. It\'s easy with our Chat app',
+    caption: 'Communicate, with your internal team, view history, manage teams. It\'s easy with our Chat app',
   },
   [AppsEnum.ToDo]: {
     img: todo,
-    caption: 'Make a plan for the day, month, year, to forget nothing. Our task manager will help you!',
+    caption: 'Make plans for the day, month, year, forget nothing. Task manager will be there every step of the way!',
   },
 };
 

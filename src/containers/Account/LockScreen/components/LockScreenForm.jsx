@@ -53,7 +53,7 @@ class AccountForm extends Component {
             </button>
           </div>
           <div className="account__forgot-password">
-            <NavLink to="/reset_password">Forgot a password?</NavLink>
+            <NavLink to="/reset_password">Forgot your password?</NavLink>
           </div>
         </div>
         <NavLink className="btn btn-primary account__btn" to="/dashboard_default">Unlock</NavLink>

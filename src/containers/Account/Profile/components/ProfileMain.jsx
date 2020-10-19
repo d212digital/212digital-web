@@ -4,7 +4,7 @@ import {
 } from 'reactstrap';
 import MessageTextOutlineIcon from 'mdi-react/MessageTextOutlineIcon';
 
-const Ava = `${process.env.PUBLIC_URL}/img/12.png`;
+const Ava = `${process.env.PUBLIC_URL}/img/me.png`;
 
 const ProfileMain = () => (
   <Col md={12} lg={12} xl={12}>
@@ -15,10 +15,10 @@ const ProfileMain = () => (
             <img src={Ava} alt="avatar" />
           </div>
           <div className="profile__data">
-            <p className="profile__name">Larry Boom</p>
-            <p className="profile__work">Senior Account Manager</p>
+            <p className="profile__name">David Adamson</p>
+            <p className="profile__work">Senior Developer</p>
             <p className="profile__contact">mailmethisletter@gmail.com</p>
-            <p className="profile__contact" dir="ltr">+23-123-743-23-21</p>
+            <p className="profile__contact" dir="ltr">+44 161-123-4567</p>
             <Button color="primary" className="icon profile__btn"><p><MessageTextOutlineIcon /> Message</p></Button>
           </div>
         </div>

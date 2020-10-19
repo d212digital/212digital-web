@@ -3,7 +3,7 @@ import DownIcon from 'mdi-react/ChevronDownIcon';
 import { Collapse } from 'reactstrap';
 import TopbarMenuLink from './TopbarMenuLink';
 
-const Ava = `${process.env.PUBLIC_URL}/img/ava.png`;
+const Ava = `${process.env.PUBLIC_URL}/img/me.png`;
 
 export default class TopbarProfile extends Component {
   constructor() {
@@ -24,7 +24,7 @@ export default class TopbarProfile extends Component {
       <div className="topbar__profile">
         <button className="topbar__avatar" type="button" onClick={this.toggle}>
           <img className="topbar__avatar-img" src={Ava} alt="avatar" />
-          <p className="topbar__avatar-name">Roman Johanson</p>
+          <p className="topbar__avatar-name">David Adamson</p>
           <DownIcon className="topbar__icon" />
         </button>
         {collapse && <button className="topbar__back" type="button" onClick={this.toggle} />}

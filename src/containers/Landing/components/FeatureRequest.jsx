@@ -6,23 +6,23 @@ const FeatureRequest = () => (
     <Container>
       <Row>
         <Col md={12}>
-          <h3 className="landing__section-title">Feature request</h3>
+          <h3 className="landing__section-title">Bespoke Projects</h3>
         </Col>
       </Row>
       <Row>
         <Col md={12}>
-          <p className="landing__request">We want to make the EasyDev better and we appreciate your feedback.
-            If you have any features suggestions <span role="img" aria-label="hammer and wrench">🛠️</span>, please,
-            request it and {'we\'ll'} try to implement them
+          <p className="landing__request">Need something not quite the "normal" get in touch, we can help.
+            Also if you have any other suggestions <span role="img" aria-label="hammer and wrench">🛠️</span>, please,
+            get in touch we always love feedback! 
           </p>
           <div className="landing__center-btn">
             <a
               className="landing__btn"
-              href="https://docs.google.com/forms/d/e/1FAIpQLScY6TsllVHB8sbMnAPc0YmpLC39i8zFwuuk4xaTO6dPWFTRig/viewform"
+              href="https://212digital.co.uk/contact"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Request features
+              Contact us!
             </a>
           </div>
         </Col>

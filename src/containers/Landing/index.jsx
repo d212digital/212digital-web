@@ -16,6 +16,7 @@ import Code from './components/Code';
 import Applications from './components/Applications';
 import { changeThemeToDark, changeThemeToLight } from '../../redux/actions/themeActions';
 import { ThemeProps } from '../../shared/prop-types/ReducerProps';
+import { Link } from 'react-router-dom';
 
 const logo = `${process.env.PUBLIC_URL}/img/landing/logo3.png`;
 
@@ -53,7 +54,7 @@ class Landing extends Component {
                       onClick={() => scrollToComponent(this.About, { offset: -50, align: 'top', duration: 1000 })}
                       type="button"
                     >
-                      About 212 Digital
+                      Technology Stack
                     </button>
                     <button
                       onClick={() => scrollToComponent(this.Features, {
@@ -63,10 +64,13 @@ class Landing extends Component {
                       })}
                       type="button"
                     >
-                      Features
+                      Core Development
                     </button>
                     <button
-                      onClick={() => scrollToComponent(this.Demos, { offset: -50, align: 'top', duration: 2000 })}
+                      onClick={() => scrollToComponent(this.Demos, { 
+                        offset: -50, 
+                        align: 'top',
+                        duration: 2000 })}
                       type="button"
                     >
                       Demos
@@ -79,16 +83,19 @@ class Landing extends Component {
                       })}
                       type="button"
                     >
-                      Feature request <span className="landing__menu-nav-new" />
+                      Bespoke Projects <span className="landing__menu-nav-new" />
                     </button>
-                    <a
+                    <Link className="landing__btn" to="/log_in_photo" target="_blank">
+                    Live Demo
+                    </Link>
+                    {/* <a
                       className="landing__btn"
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://212digital.co.uk/contact"
                     >
-                      Get Started
-                    </a>
+                      Get in touch
+                    </a> */}
                   </nav>
                 </div>
               </Col>

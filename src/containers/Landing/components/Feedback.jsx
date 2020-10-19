@@ -12,11 +12,11 @@ const Feedback = () => (
         <Col md={12}>
           <h2 className="landing__feedback-title"><b>Did you know?</b></h2>
           <p className="landing__feedback-subhead">
-            212 Digital can deliver a wide range of solutions from Admin dashboards, using Authorization with Firebase, Auth0, Google and Facebook accounts to fully 
-            functional eCommerce Stores built in React.
+            212 Digital can deliver a wide range of solutions from Admin dashboards using Authorisation with Firebase,
+            Google and Facebook accounts; chat, email, todo apps, to fully functional front and backend eCommerce Stores built in React.
             <br/><br/>
-            In addition to our modern full stack development approach we can offer services ranging from Wordpress development, and full Magento 
-            2 builds. Getting you the software you need or building it from scratch, we can help! 
+            In addition to our modern full stack development approach we have years of experience in delivering websites
+            created in Wordpress and Magento 2. Whether its getting you the software you need, or building it from scratch, we can help! 
           </p>
           <div className="landing__feedback-form">
             <a

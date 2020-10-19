@@ -54,51 +54,12 @@ const Demos = ({ theme, changeToLight, changeToDark }) => (
     <Container>
       <Row>
         <Col md={12}>
-          <h3 className="landing__section-title">Some of our projects</h3>
+          <h3 className="landing__section-title">What we can deliver</h3>
         </Col>
       </Row>
       <Row className="landing__demo-wrap">
         <Col lg={8}>
-          <Link className="landing__demo" target="_blank" to="/dashboard_mobile_app">
-            <div className="landing__demo-img-wrap">
-              <img src={theme.className === 'theme-dark' ? mobileAppDark : mobileApp} alt="" />
-            </div>
-          </Link>
-        </Col>
-        <Col lg={4} className="landing__demo-theme-toggle">
-          <p className="landing__demo-title landing__demo-title--new">Dashboard Mobile App</p>
-          <DemoThemeToggle theme={theme} changeToLight={changeToLight} changeToDark={changeToDark} />
-        </Col>
-      </Row>
-      <Row className="landing__demo-wrap">
-        <Col lg={8}>
-          <Link className="landing__demo" target="_blank" to="/dashboard_booking">
-            <div className="landing__demo-img-wrap">
-              <img src={theme.className === 'theme-dark' ? bookingDark : booking} alt="" />
-            </div>
-          </Link>
-        </Col>
-        <Col lg={4} className="landing__demo-theme-toggle">
-          <p className="landing__demo-title landing__demo-title--new">Booking Dashboard</p>
-          <DemoThemeToggle theme={theme} changeToLight={changeToLight} changeToDark={changeToDark} />
-        </Col>
-      </Row>
-      <Row className="landing__demo-wrap">
-        <Col lg={8}>
-          <Link className="landing__demo" target="_blank" to="/dashboard_crypto">
-            <div className="landing__demo-img-wrap">
-              <img src={theme.className === 'theme-dark' ? cryptoDark : crypto} alt="" />
-            </div>
-          </Link>
-        </Col>
-        <Col lg={4} className="landing__demo-theme-toggle">
-          <p className="landing__demo-title">Crypto Dashboard</p>
-          <DemoThemeToggle theme={theme} changeToLight={changeToLight} changeToDark={changeToDark} />
-        </Col>
-      </Row>
-      <Row className="landing__demo-wrap">
-        <Col lg={8}>
-          <Link className="landing__demo" target="_blank" to="/dashboard_e_commerce">
+          <Link className="landing__demo" target="_blank" to="/log_in_photo">
             <div className="landing__demo-img-wrap">
               <img src={theme.className === 'theme-dark' ? eCommerceDark : eCommerce} alt="" />
             </div>
@@ -111,7 +72,46 @@ const Demos = ({ theme, changeToLight, changeToDark }) => (
       </Row>
       <Row className="landing__demo-wrap">
         <Col lg={8}>
-          <Link className="landing__demo" target="_blank" to="/dashboard_default">
+          <Link className="landing__demo" target="_blank" to="/log_in_photo">
+            <div className="landing__demo-img-wrap">
+              <img src={theme.className === 'theme-dark' ? mobileAppDark : mobileApp} alt="" />
+            </div>
+          </Link>
+        </Col>
+        <Col lg={4} className="landing__demo-theme-toggle">
+          <p className="landing__demo-title landing__demo-title--new">Dashboard Mobile App</p>
+          <DemoThemeToggle theme={theme} changeToLight={changeToLight} changeToDark={changeToDark} />
+        </Col>
+      </Row>
+      <Row className="landing__demo-wrap">
+        <Col lg={8}>
+          <Link className="landing__demo" target="_blank" to="/log_in_photo">
+            <div className="landing__demo-img-wrap">
+              <img src={theme.className === 'theme-dark' ? bookingDark : booking} alt="" />
+            </div>
+          </Link>
+        </Col>
+        <Col lg={4} className="landing__demo-theme-toggle">
+          <p className="landing__demo-title landing__demo-title--new">Booking Dashboard</p>
+          <DemoThemeToggle theme={theme} changeToLight={changeToLight} changeToDark={changeToDark} />
+        </Col>
+      </Row>
+      <Row className="landing__demo-wrap">
+        <Col lg={8}>
+          <Link className="landing__demo" target="_blank" to="/log_in_photo">
+            <div className="landing__demo-img-wrap">
+              <img src={theme.className === 'theme-dark' ? cryptoDark : crypto} alt="" />
+            </div>
+          </Link>
+        </Col>
+        <Col lg={4} className="landing__demo-theme-toggle">
+          <p className="landing__demo-title">Crypto Dashboard</p>
+          <DemoThemeToggle theme={theme} changeToLight={changeToLight} changeToDark={changeToDark} />
+        </Col>
+      </Row>
+      <Row className="landing__demo-wrap">
+        <Col lg={8}>
+          <Link className="landing__demo" target="_blank" to="/log_in_photo">
             <div className="landing__demo-img-wrap">
               <img src={theme.className === 'theme-dark' ? analyticsDark : analytics} alt="" />
             </div>
@@ -124,7 +124,7 @@ const Demos = ({ theme, changeToLight, changeToDark }) => (
       </Row>
       <Row className="landing__demo-wrap">
         <Col lg={8}>
-          <Link className="landing__demo" target="_blank" to="/dashboard_fitness">
+          <Link className="landing__demo" target="_blank" to="/log_in_photo">
             <div className="landing__demo-img-wrap">
               <img src={theme.className === 'theme-dark' ? fitnessDark : fitness} alt="" />
             </div>

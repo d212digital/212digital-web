@@ -6,7 +6,8 @@ const Purchase = () => (
     <Container>
       <Row>
         <Col md={12}>
-          <h3 className="landing__section-title">Get in touch <b>212 Digital can deliver bespoke solutions</b> save your time and nerves
+          <h3 className="landing__section-title">Get in touch <b>212 Digital can deliver bespoke solutions </b> 
+           so get in touch and save your time and nerves
           </h3>
           <div className="landing__center-btn">
             <a

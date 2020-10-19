@@ -15,7 +15,7 @@ const Technologies = () => (
       <Row>
         <Col md={12}>
           <h3 className="landing__section-title">Our Solutions are based on the latest, most popular and powerful technology stack.
-            Created with scalability and reliabilty in mind allowing you, to grow your business.
+            Created with scalability and reliabilty in mind allowing you to grow your business.
           </h3>
         </Col>
       </Row>

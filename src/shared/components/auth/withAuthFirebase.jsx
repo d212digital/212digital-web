@@ -31,7 +31,7 @@ function withAuthFirebase(WrappedComponent) {
       const provider = new firebase.auth.GoogleAuthProvider();
       try {
         const res = await firebase.auth().signInWithPopup(provider);
-        localStorage.setItem('easydev', res.credential.accessToken);
+        localStorage.setItem('212digital', res.credential.accessToken);
         dispatch(auth({ name: res.user.displayName, avatar: res.user.photoURL }));
         history.push('/dashboard_mobile_app');
       } catch (e) {
@@ -43,7 +43,7 @@ function withAuthFirebase(WrappedComponent) {
       const provider = new firebase.auth.FacebookAuthProvider();
       try {
         const res = await firebase.auth().signInWithPopup(provider);
-        localStorage.setItem('easydev', res.credential.accessToken);
+        localStorage.setItem('212digital', res.credential.accessToken);
         dispatch(auth({ name: res.user.displayName, avatar: res.user.photoURL }));
         history.push('/dashboard_mobile_app');
       } catch (e) {

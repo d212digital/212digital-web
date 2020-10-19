@@ -32,8 +32,8 @@ class RegisterPhoto extends Component {
           <div className="account__card">
             <div className="account__head">
               <h3 className="account__title">Welcome to
-                <span className="account__logo"> Easy
-                  <span className="account__logo-accent">DEV</span>
+                <span className="account__logo"> 212
+                  <span className="account__logo-accent"> Digital</span>
                 </span>
               </h3>
               <h4 className="account__subhead subhead">Create an account</h4>

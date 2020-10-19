@@ -17,7 +17,7 @@ const Features = () => (
     <Container>
       <Row>
         <Col md={12}>
-          <h3 className="landing__section-title">Key features</h3>
+          <h3 className="landing__section-title">Core developement methodolgies</h3>
         </Col>
       </Row>
       <Row>
@@ -27,17 +27,17 @@ const Features = () => (
               <div className="landing__feature-img-wrap">
                 <img className="landing__feature-img--autorization" src={feat09} alt="" />
               </div>
-              <p className="landing__feature-title">Authorization</p>
+              <p className="landing__feature-title">Authorisation</p>
               <p className="landing__feature-caption">
-                Authorization with Firebase, Auth0, Google and Facebook accounts
+                Authorisation with Firebase, Google and Facebook accounts
               </p>
             </div>
             <div className="landing__feature">
               <div className="landing__feature-img-wrap">
                 <img src={feat10} alt="" />
               </div>
-              <p className="landing__feature-title">How-to install video</p>
-              <p className="landing__feature-caption">Will guide you on how to install the app easily</p>
+              <p className="landing__feature-title">How-to videos</p>
+              <p className="landing__feature-caption">Coming Soon! our step by step guides to using our apps</p>
             </div>
             <div className="landing__feature">
               <div className="landing__feature-img-wrap">
@@ -50,22 +50,22 @@ const Features = () => (
               <div className="landing__feature-img-wrap">
                 <img src={feat05} alt="" />
               </div>
-              <p className="landing__feature-title">Seed Project inside</p>
-              <p className="landing__feature-caption">The base allows you to start your project easily</p>
+              <p className="landing__feature-title">Connect existing data</p>
+              <p className="landing__feature-caption">Connect our apps to your existing data sets</p>
             </div>
             <div className="landing__feature">
               <div className="landing__feature-img-wrap">
                 <img src={feat02} alt="" />
               </div>
               <p className="landing__feature-title">Redux Form</p>
-              <p className="landing__feature-caption">It helps you write apps that behave consistently</p>
+              <p className="landing__feature-caption">It helps us write apps that behave consistently</p>
             </div>
             <div className="landing__feature">
               <div className="landing__feature-img-wrap">
                 <img src={feat07} alt="" />
               </div>
               <p className="landing__feature-title">Form Validation</p>
-              <p className="landing__feature-caption">Allows you to be sure in correct user input</p>
+              <p className="landing__feature-caption">Ensures consistent data input using form validation</p>
             </div>
             <div className="landing__feature">
               <div className="landing__feature-img-wrap">
@@ -78,8 +78,8 @@ const Features = () => (
               <div className="landing__feature-img-wrap">
                 <img src={feat03} alt="" />
               </div>
-              <p className="landing__feature-title">Editable Tables</p>
-              <p className="landing__feature-caption">It allows you to edit table content in real time</p>
+              <p className="landing__feature-title">Editable content</p>
+              <p className="landing__feature-caption">Our solutions allow you to edit content in real time</p>
             </div>
             <div className="landing__feature">
               <div className="landing__feature-img-wrap">
@@ -93,14 +93,14 @@ const Features = () => (
                 <img src={feat06} alt="" />
               </div>
               <p className="landing__feature-title">Full Documentation</p>
-              <p className="landing__feature-caption">Find the answers how to work with the EasyDev</p>
+              <p className="landing__feature-caption">Find the answers to common questions</p>
             </div>
           </div>
         </Col>
       </Row>
       <Row>
         <Col md={12}>
-          <h4 className="landing__additional-title">… and more</h4>
+          <h4 className="landing__additional-title">… and much more</h4>
         </Col>
       </Row>
       <Row>
@@ -112,7 +112,7 @@ const Features = () => (
             <p className="landing__feature-more"><CheckIcon /> Todo App</p>
             <p className="landing__feature-more"><CheckIcon /> Easy to Customize</p>
             <p className="landing__feature-more"><CheckIcon /> Fully Responsive</p>
-            <p className="landing__feature-more"><CheckIcon /> Calendar</p>
+            <p className="landing__feature-more"><CheckIcon /> Calendar app</p>
             <p className="landing__feature-more"><CheckIcon /> 200+ UI Elements</p>
             <p className="landing__feature-more"><CheckIcon /> Sass Prepros</p>
             <p className="landing__feature-more"><CheckIcon /> Email App</p>

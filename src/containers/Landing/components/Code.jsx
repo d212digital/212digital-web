@@ -15,10 +15,14 @@ const Technologies = () => (
             <div className="landing__code-wrap">
               <h3 className="landing__section-title">Fully Responsive</h3>
               <p className="landing__section-description">
-                {'You can use our solutions on all devices - it\'ll work and function everywhere!'}
+                {'You can use our solutions anywhere - they work and function across all devices!'}
               </p>
               <p className="landing__section-description">
-                Lazy loading allows your device to display the graphic content softly and correctly
+                Lazy loading when needed allows your device to display the content perfectly.
+              </p>
+              <p className="landing__section-description">
+                Our frontend solutions are fast, responsive SPA's (Single Page Applications) that deliver across all
+                devices & platforms.
               </p>
             </div>
           </div>
@@ -36,10 +40,10 @@ const Technologies = () => (
           <div className="landing__code-text">
             <div className="landing__code-wrap">
               <h3 className="landing__section-title">Clean and Professional Code</h3>
-              <p className="landing__section-description">We have created a quality product that will be convenient
-                for developers to use. The main advantage is a clean, correct and easy to understand code.
+              <p className="landing__section-description">We build quality applications that are developed 
+              using clean and easy to maintain code following the latest development principles.
               </p>
-              <p className="landing__section-description">React framework allows you to create a component
+              <p className="landing__section-description">The React framework allows us to create a component
                 architecture, get the best productivity and render changes automatically.
               </p>
             </div>

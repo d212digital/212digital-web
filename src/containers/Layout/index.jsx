@@ -39,9 +39,8 @@ class Layout extends Component {
   };
 
   componentDidMount() {
-    const title = 'Welcome to the 212 digital!';
-    const message = 'You have successfully registered with 212 Digital. Now you can start to explore the dashboard'
-      + 'interface with a bunch of components and applications. Enjoy!';
+    const title = 'Welcome to 212 Digital!';
+    const message = 'You have successfully registered with us. Explore the dashboard & Enjoy!';
     const notificationInitialProps = {
       content: <BasicNotification
         title={title}

@@ -11,20 +11,20 @@ const Header = ({ onClick }) => (
     <Container>
       <Row>
         <Col md={12}>
-          <h2 className="landing__header-title">212 Digital - coded with passion & using the latest technology stacks
+          <h2 className="landing__header-title">212 Digital - coding with passion using the latest technology stacks
             to deliver bespoke projects.
           </h2>
           <p className="landing__header-subhead">212 Digital always use the latest, stable and most 
           secure version of code for our solutions. 
           </p>
-          <Link className="landing__btn landing__btn--header" to="/documentation/introduction" target="_blank">
-            Check out the docs
-          </Link>
+          {/* <Link className="landing__btn landing__btn--header" to="/documentation/introduction" target="_blank">
+            Read documentation
+          </Link> */}
           <button type="button" className="landing__btn landing__btn--header" onClick={onClick}>
-            Go to demo
+            View Core Dashboards
           </button>
-          <Link className="landing__btn landing__btn--header" to="/dashboard_default" target="_blank">
-            Live demo
+          <Link className="landing__btn landing__btn--header" to="/log_in_photo" target="_blank">
+            View Core Application
           </Link>
           <img className="landing__header-img" src={img} alt="macbook" />
         </Col>

@@ -9,11 +9,11 @@ import LogInFormPhoto from '../../../shared/components/loginPhotoForm/LogInFormP
 import GoogleAuthBtn from '../AuthBtn/googleAuthBtn';
 import FacebookAuthBtn from '../AuthBtn/fbAuthBtn';
 
-const auth0Icon = `${process.env.PUBLIC_URL}/img/auth0.svg`;
+// const auth0Icon = `${process.env.PUBLIC_URL}/img/auth0.png`;
 
 const LogInPhoto = ({ changeIsOpenModalFireBase }) => {
   const {
-    loginWithRedirect, loading,
+    loading,
   } = useAuth0();
   if (loading) {
     return (<Loading loading={loading} />);
@@ -24,18 +24,18 @@ const LogInPhoto = ({ changeIsOpenModalFireBase }) => {
         <div className="account__card">
           <div className="account__head">
             <h3 className="account__title">Welcome to
-              <span className="account__logo"> Easy
-                <span className="account__logo-accent">DEV</span>
+              <span className="account__logo"> 212
+                <span className="account__logo-accent"> Digital</span>
               </span>
             </h3>
-            <h4 className="account__subhead subhead">Start your business easily</h4>
+            <h4 className="account__subhead subhead">Login or create an account to access our Demo area</h4>
           </div>
           <LogInFormPhoto
             onSubmit
             form="log_in_form"
           />
           <div className="account__or">
-            <p>Or Easily Using</p>
+            <p>Or Login using</p>
           </div>
           <div className="account__social">
             <FacebookAuthBtn />
@@ -46,9 +46,9 @@ const LogInPhoto = ({ changeIsOpenModalFireBase }) => {
             >
               <FirebaseIcon />
             </Button>
-            <Button className="account__social-btn account__social-btn--auth0" onClick={() => loginWithRedirect({})}>
+            {/* <Button className="account__social-btn account__social-btn--auth0" onClick={() => loginWithRedirect({})}>
               <img className="customizer__btn-icon" src={auth0Icon} alt="icon" />
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>
