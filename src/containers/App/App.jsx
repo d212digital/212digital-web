@@ -79,7 +79,7 @@ class App extends Component {
           returnTo={`${window.location.origin}/212digital/dashboard_default`}
           onRedirectCallback={this.onRedirectCallbackAuth0}
         >
-          <BrowserRouter basename="/212digital">
+          <BrowserRouter basename="/">
             <I18nextProvider i18n={i18n}>
               <LoadScript
                 googleMapsApiKey="" /* Paste your Google Maps Api Key here */

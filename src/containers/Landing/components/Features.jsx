@@ -11,8 +11,10 @@ const feat06 = `${process.env.PUBLIC_URL}/img/landing/features/06_new.png`;
 const feat07 = `${process.env.PUBLIC_URL}/img/landing/features/07_new.png`;
 const feat08 = `${process.env.PUBLIC_URL}/img/landing/features/08_new.png`;
 const feat09 = `${process.env.PUBLIC_URL}/img/landing/features/09_new.png`;
-const feat10 = `${process.env.PUBLIC_URL}/img/landing/features/10_new.png`;
+const feat10 = `${process.env.PUBLIC_URL}/img/landing/features/stripe.png`;
 const feat11 = `${process.env.PUBLIC_URL}/img/landing/features/saga.png`;
+const feat12 = `${process.env.PUBLIC_URL}/img/landing/features/graphql.png`;
+const feat13 = `${process.env.PUBLIC_URL}/img/landing/features/01_new.png`;
 
 const Features = () => (
   <section className="landing__section">
@@ -61,10 +63,17 @@ const Features = () => (
             </div>
             <div className="landing__feature">
               <div className="landing__feature-img-wrap">
-                <img src={feat05} alt="" />
+                <img src={feat12} alt="" />
               </div>
-              <p className="landing__feature-title">Connect existing data</p>
-              <p className="landing__feature-caption">Connect our apps to your existing data sets</p>
+              <p className="landing__feature-title">GraphQL</p>
+              <p className="landing__feature-caption">API Query & Manipulation Language</p>
+            </div>
+            <div className="landing__feature">
+              <div className="landing__feature-img-wrap">
+                <img src={feat13} alt="" />
+              </div>
+              <p className="landing__feature-title">React Suspense</p>
+              <p className="landing__feature-caption">For data fetching and suspended rendering</p>
             </div>
             <div className="landing__feature">
               <div className="landing__feature-img-wrap">
@@ -75,10 +84,10 @@ const Features = () => (
             </div>
             <div className="landing__feature">
               <div className="landing__feature-img-wrap">
-                <img src={feat07} alt="" />
+                <img src={feat10} alt="" />
               </div>
-              <p className="landing__feature-title">Form Validation</p>
-              <p className="landing__feature-caption">Ensures consistent data input using form validation</p>
+              <p className="landing__feature-title">Stripe API</p>
+              <p className="landing__feature-caption">Online Payment processing and management suite</p>
             </div>
             <div className="landing__feature">
               <div className="landing__feature-img-wrap">
@@ -108,12 +117,20 @@ const Features = () => (
               <p className="landing__feature-title">Full Documentation</p>
               <p className="landing__feature-caption">Find the answers to common questions</p>
             </div>
+            
             <div className="landing__feature">
               <div className="landing__feature-img-wrap">
-                <img src={feat10} alt="" />
+                <img src={feat07} alt="" />
               </div>
-              <p className="landing__feature-title">How-to videos</p>
-              <p className="landing__feature-caption">Coming Soon! our step by step guides to using our apps</p>
+              <p className="landing__feature-title">Form Validation</p>
+              <p className="landing__feature-caption">Ensures consistent data input using form validation</p>
+            </div>
+            <div className="landing__feature">
+              <div className="landing__feature-img-wrap">
+                <img src={feat05} alt="" />
+              </div>
+              <p className="landing__feature-title">Connect existing data</p>
+              <p className="landing__feature-caption">Connect our apps to your existing data sets</p>
             </div>
           </div>
         </Col>
