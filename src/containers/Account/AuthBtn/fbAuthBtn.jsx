@@ -22,7 +22,7 @@ class AuthFacebookeBtn extends Component {
       dispatch(authError('Some error'));
     } else {
       dispatch(auth({ name: response.name, avatar: response.picture.data.url }));
-      localStorage.setItem('easydev', response.accessToken);
+      localStorage.setItem('212digital', response.accessToken);
       history.push('/dashboard_default');
     }
   }

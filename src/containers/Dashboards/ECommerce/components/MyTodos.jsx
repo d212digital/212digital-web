@@ -13,7 +13,7 @@ class MyTodos extends Component {
     checkedItems: [
       {
         id: '1',
-        label: 'Call to Margaret and tell about EasyDEV',
+        label: 'Call to Margaret and tell about 212 Digital',
         checked: true,
       },
       {

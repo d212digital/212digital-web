@@ -16,7 +16,7 @@ const EmailConfirmationCard = () => (
             <CheckboxMarkedCircleIcon className="email-confirmation__check" />
           </div>
           <h3 className="email-confirmation__title">Your e-mail address has been successfully verified</h3>
-          <p className="email-confirmation__sub">Thank you for choosing the EasyDev</p>
+          <p className="email-confirmation__sub">Thank you for choosing 212 Digital</p>
           <ButtonToolbar className="email-confirmation__buttons">
             <Link className="btn btn-primary" to="/dashboard_default">Go to dashboard</Link>
             <Link className="btn btn-primary" to="/account/profile">Go to profile</Link>

@@ -14,7 +14,7 @@ const Header = ({ onClick }) => (
           <h2 className="landing__header-title">212 Digital - coding with passion using the latest technology stacks
             to deliver bespoke projects.
           </h2>
-          <p className="landing__header-subhead">212 Digital always use the latest, stable and most 
+          <p className="landing__header-subhead">We always use the latest, stable and most 
           secure version of code for our solutions. 
           </p>
           {/* <Link className="landing__btn landing__btn--header" to="/documentation/introduction" target="_blank">

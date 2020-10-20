@@ -7,7 +7,7 @@ const IntroductionFeatures = () => (
       <div className="card__title">
         <h5 className="bold-text">Introduction</h5>
       </div>
-      <p>EasyDEV is a modern dashboard template based on React Components and Bootstrap 4 Framework. We’ve used
+      <p>212 Digital is a modern dashboard template based on React Components and Bootstrap 4 Framework. We’ve used
         modern technologies and best practices to make our product easy to work with. It’s the most
         convenient template for developers, because of React Components, clean code and detailed documentation,
         which allows you to build any projects easily! Use it for e-commerce, analytics, sports and other types of

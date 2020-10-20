@@ -36,7 +36,7 @@ const ProductCard = () => {
                 <StarIcon />
                 <StarIcon />
                 <StarOutlineIcon />
-                <a className="product-card__link" href="/easydev/e-commerce/product_page">See all reviews</a>
+                <a className="product-card__link" href="/212digital/e-commerce/product_page">See all reviews</a>
               </div>
               <h1 className="product-card__price">$17.19 <span className="product-card__old-price">$23</span></h1>
               <p className="typography-message">

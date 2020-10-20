@@ -12,12 +12,14 @@ const feat07 = `${process.env.PUBLIC_URL}/img/landing/features/07_new.png`;
 const feat08 = `${process.env.PUBLIC_URL}/img/landing/features/08_new.png`;
 const feat09 = `${process.env.PUBLIC_URL}/img/landing/features/09_new.png`;
 const feat10 = `${process.env.PUBLIC_URL}/img/landing/features/10_new.png`;
+const feat11 = `${process.env.PUBLIC_URL}/img/landing/features/saga.png`;
+
 const Features = () => (
   <section className="landing__section">
     <Container>
       <Row>
         <Col md={12}>
-          <h3 className="landing__section-title">Core developement methodolgies</h3>
+          <h3 className="landing__section-title">Core developement methods</h3>
         </Col>
       </Row>
       <Row>
@@ -27,17 +29,28 @@ const Features = () => (
               <div className="landing__feature-img-wrap">
                 <img className="landing__feature-img--autorization" src={feat09} alt="" />
               </div>
-              <p className="landing__feature-title">Authorisation</p>
+              <p className="landing__feature-title">Authentication</p>
               <p className="landing__feature-caption">
-                Authorisation with Firebase, Google and Facebook accounts
+                Authentication with Firebase, Google and Facebook accounts
               </p>
             </div>
             <div className="landing__feature">
-              <div className="landing__feature-img-wrap">
-                <img src={feat10} alt="" />
+            <div className="landing__feature-img-wrap">
+                <img className="landing__feature-img--autorization" src={feat09} alt="" />
               </div>
-              <p className="landing__feature-title">How-to videos</p>
-              <p className="landing__feature-caption">Coming Soon! our step by step guides to using our apps</p>
+              <p className="landing__feature-title">Firestore</p>
+              <p className="landing__feature-caption">
+                No SQL Datatbase Management with Firebase firestore
+              </p>
+            </div>
+            <div className="landing__feature">
+            <div className="landing__feature-img-wrap">
+                <img className="landing__feature-img--autorization" src={feat11} alt="" />
+              </div>
+              <p className="landing__feature-title">Redux Saga</p>
+              <p className="landing__feature-caption">
+                Application Middleware for application side effects
+              </p>
             </div>
             <div className="landing__feature">
               <div className="landing__feature-img-wrap">
@@ -95,6 +108,13 @@ const Features = () => (
               <p className="landing__feature-title">Full Documentation</p>
               <p className="landing__feature-caption">Find the answers to common questions</p>
             </div>
+            <div className="landing__feature">
+              <div className="landing__feature-img-wrap">
+                <img src={feat10} alt="" />
+              </div>
+              <p className="landing__feature-title">How-to videos</p>
+              <p className="landing__feature-caption">Coming Soon! our step by step guides to using our apps</p>
+            </div>
           </div>
         </Col>
       </Row>
@@ -116,6 +136,8 @@ const Features = () => (
             <p className="landing__feature-more"><CheckIcon /> 200+ UI Elements</p>
             <p className="landing__feature-more"><CheckIcon /> Sass Prepros</p>
             <p className="landing__feature-more"><CheckIcon /> Email App</p>
+            <p className="landing__feature-more"><CheckIcon /> Shopping Basket</p>
+            <p className="landing__feature-more"><CheckIcon /> eCommerce Shops</p>
           </div>
         </Col>
       </Row>

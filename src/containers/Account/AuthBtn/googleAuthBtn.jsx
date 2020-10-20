@@ -19,7 +19,7 @@ class AuthGoogleBtn extends Component {
   responseSuccess = (response) => {
     const { dispatch, history } = this.props;
     dispatch(auth({ name: response.profileObj.name, avatar: response.profileObj.imageUrl }));
-    localStorage.setItem('easydev', response.accessToken);
+    localStorage.setItem('212digital', response.accessToken);
     history.push('/dashboard_default');
   }
 

@@ -160,7 +160,7 @@ const ResourcesLinks = () => (
       </div>
       <ul>
         <li className="li-title">
-          New feature for EasyDEV - the authorization! Now you can authorize with your Firebase, Auth0,
+          New feature for 212 Digital - the authorization! Now you can authorize with your Firebase, Auth0,
           Google and Facebook accounts and even create Firebase account.
         </li>
         <li className="li-title">Account</li>

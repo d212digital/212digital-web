@@ -7,7 +7,7 @@ const InstallationSteps = () => (
       <div className="card__title">
         <h5 className="bold-text">Installation</h5>
       </div>
-      <p>EasyDEV is based on create-react-app and has its README.md which you can find very useful.</p>
+      <p>212 Digital is based on create-react-app and has its README.md which you can find very useful.</p>
       <p>To get started follow this steps:</p>
       <ol>
         <li>Install <a href="https://nodejs.org/en/">Node</a> and npm.</li>

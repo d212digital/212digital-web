@@ -7,13 +7,13 @@ const Structure = () => (
       <div className="card__title">
         <h5 className="bold-text">Project Structure</h5>
       </div>
-      <p>EasyDEV has two projects:</p>
+      <p>212 Digital has two projects:</p>
       <p><b>/template/...</b> - contains all components and pages which you can to find
-        <a href="http://previews.aspirity.com/easydev/" target="_blank" rel="noopener noreferrer"> here</a>:
+        <a href="https://212digital.co.uk" target="_blank" rel="noopener noreferrer"> here</a>:
       </p>
       <pre className="documentation__structure">
         <code>
-          {`easydev/
+          {`212digital/
 |——template
 |  |——config/
 |  |——public/
@@ -54,7 +54,7 @@ const Structure = () => (
       <p><b>/seed/...</b> - contains main components and examples of pages:</p>
       <pre className="documentation__structure">
         <code>
-          {`easydev/
+          {`212digital/
 |——seed
 |  |——config/
 |  |——public/

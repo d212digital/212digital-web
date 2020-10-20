@@ -7,7 +7,7 @@ const Purchase = () => (
       <Row>
         <Col md={12}>
           <h3 className="landing__section-title">Get in touch <b>212 Digital can deliver bespoke solutions </b> 
-           so get in touch and save your time and nerves
+           so why not save your time and nerves today!
           </h3>
           <div className="landing__center-btn">
             <a

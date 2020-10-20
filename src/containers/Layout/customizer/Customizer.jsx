@@ -72,7 +72,7 @@ export default class Customizer extends Component {
               <CloseIcon />
             </button>
           </div>
-          <p className="customizer__caption">This customizer allows you to see the different variations of the EasyDev.
+          <p className="customizer__caption">This customizer allows you to see the different variations of 212 Digital.
             Create your own visual style for every project you do!
           </p>
           <ToggleCollapsedMenu changeSidebarVisibility={changeSidebarVisibility} sidebar={sidebar} />
