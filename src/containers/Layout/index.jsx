@@ -10,7 +10,7 @@ import TopbarWithNavigation from './topbar_with_navigation/TopbarWithNavigation'
 import Sidebar from './sidebar/Sidebar';
 import SidebarMobile from './topbar_with_navigation/sidebar_mobile/SidebarMobile';
 import Customizer from './customizer/Customizer';
-import { BasicNotification } from '../../shared/components/Notification';
+// import { BasicNotification } from '../../shared/components/Notification';
 import { changeMobileSidebarVisibility, changeSidebarVisibility } from '../../redux/actions/sidebarActions';
 import {
   changeThemeToDark, changeThemeToLight,
@@ -38,37 +38,37 @@ class Layout extends Component {
     user: UserProps.isRequired,
   };
 
-  componentDidMount() {
-    const title = 'Welcome to 212 Digital!';
-    const message = 'You have successfully registered with us. Explore the dashboard & Enjoy!';
-    const notificationInitialProps = {
-      content: <BasicNotification
-        title={title}
-        message={message}
-        theme={this.props.theme}
-      />,
-      closable: true,
-      duration: 5,
-      style: { top: 0, left: 'calc(100vw - 100%)' },
-      className: `right-up ${this.props.rtl.direction}-support`,
-    };
-    notification.notice(notificationInitialProps);
-    const notificationIntervalKey = setInterval(() => {
-      notification.notice({
-        ...notificationInitialProps,
-        content: <BasicNotification
-          title={title}
-          message={message}
-          theme={this.props.theme}
-        />,
-        className: `right-up ${this.props.rtl.direction}-support`,
-        onClose() {
-          setTimeout(() => { clearInterval(notificationIntervalKey); });
-        },
-      });
-    }, 100);
-    setTimeout(() => { clearInterval(notificationIntervalKey); }, 5000);
-  }
+  // componentDidMount() {
+  //   const title = 'Welcome to 212 Digital!';
+  //   const message = 'You have successfully registered with us. Explore the dashboard & Enjoy!';
+  //   const notificationInitialProps = {
+  //     content: <BasicNotification
+  //       title={title}
+  //       message={message}
+  //       theme={this.props.theme}
+  //     />,
+  //     closable: true,
+  //     duration: 1,
+  //     style: { top: 0, left: 'calc(100vw - 100%)' },
+  //     className: `right-up ${this.props.rtl.direction}-support`,
+  //   };
+  //   notification.notice(notificationInitialProps);
+  //   const notificationIntervalKey = setInterval(() => {
+  //     notification.notice({
+  //       ...notificationInitialProps,
+  //       content: <BasicNotification
+  //         title={title}
+  //         message={message}
+  //         theme={this.props.theme}
+  //       />,
+  //       className: `right-up ${this.props.rtl.direction}-support`,
+  //       onClose() {
+  //         setTimeout(() => { clearInterval(notificationIntervalKey); });
+  //       },
+  //     });
+  //   }, 100);
+  //   setTimeout(() => { clearInterval(notificationIntervalKey); }, 5000);
+  // }
 
   componentWillUnmount() {
     notification.destroy();
