@@ -14,9 +14,9 @@ const Purchase = () => (
               className="landing__btn landing__btn--gradient"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://212digital.co.uk/contact"
+              href="tel:07702790586"
             >
-              Let us do the hard work!  
+              Click to call us and find out how we can help!  
             </a>
           </div>
         </Col>
