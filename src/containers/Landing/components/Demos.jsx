@@ -10,6 +10,7 @@ const analytics = `${process.env.PUBLIC_URL}/img/landing/demos/1.png`;
 const fitness = `${process.env.PUBLIC_URL}/img/landing/demos/2.png`;
 const booking = `${process.env.PUBLIC_URL}/img/landing/demos/5.png`;
 const mobileApp = `${process.env.PUBLIC_URL}/img/landing/demos/6.png`;
+const magentoBuild = `${process.env.PUBLIC_URL}/img/landing/demos/iwt-2.png`;
 
 const cryptoDark = `${process.env.PUBLIC_URL}/img/landing/demos/1_3.png`;
 const eCommerceDark = `${process.env.PUBLIC_URL}/img/landing/demos/1_2.png`;
@@ -17,6 +18,7 @@ const analyticsDark = `${process.env.PUBLIC_URL}/img/landing/demos/1_1.png`;
 const fitnessDark = `${process.env.PUBLIC_URL}/img/landing/demos/fitness_dark.png`;
 const bookingDark = `${process.env.PUBLIC_URL}/img/landing/demos/booking_dark.png`;
 const mobileAppDark = `${process.env.PUBLIC_URL}/img/landing/demos/mobile_app_dark.png`;
+const magentoBuildDark = `${process.env.PUBLIC_URL}/img/landing/demos/iwt-2.png`;
 
 const background = `${process.env.PUBLIC_URL}/img/landing/left_bg.png`;
 
@@ -132,6 +134,19 @@ const Demos = ({ theme, changeToLight, changeToDark }) => (
         </Col>
         <Col lg={4} className="landing__demo-theme-toggle">
           <p className="landing__demo-title">Fitness Dashboard</p>
+          <DemoThemeToggle theme={theme} changeToLight={changeToLight} changeToDark={changeToDark} />
+        </Col>
+      </Row>
+      <Row className="landing__demo-wrap">
+        <Col lg={8}>
+          <Link className="landing__demo" target="_blank" to="https://iwanttights.com">
+            <div className="landing__demo-img-wrap">
+              <img src={theme.className === 'theme-dark' ? magentoBuildDark : magentoBuild} alt="" />
+            </div>
+          </Link>
+        </Col>
+        <Col lg={4} className="landing__demo-theme-toggle">
+          <p className="landing__demo-title">Magento 2 PWA Build</p>
           <DemoThemeToggle theme={theme} changeToLight={changeToLight} changeToDark={changeToDark} />
         </Col>
       </Row>

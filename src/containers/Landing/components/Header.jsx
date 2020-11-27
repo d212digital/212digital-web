@@ -11,7 +11,7 @@ const Header = ({ onClick }) => (
     <Container>
       <Row>
         <Col md={12}>
-          <h2 className="landing__header-title">212 Digital - coding with passion using the latest technology stacks
+          <h2 className="landing__header-title">Coding with passion using the latest technology stacks
             to deliver bespoke projects.
           </h2>
           <p className="landing__header-subhead">We always use the latest, stable and most 
@@ -21,7 +21,7 @@ const Header = ({ onClick }) => (
             Read documentation
           </Link> */}
           <button type="button" className="landing__btn landing__btn--header" onClick={onClick}>
-            View Core Dashboards
+            View Our Apps/Work
           </button>
           <Link className="landing__btn landing__btn--header" to="/log_in_photo" target="_blank">
             View Core Application
