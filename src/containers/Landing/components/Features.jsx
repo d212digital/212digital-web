@@ -21,7 +21,7 @@ const Features = () => (
     <Container>
       <Row>
         <Col md={12}>
-          <h3 className="landing__section-title">Core developement methods</h3>
+          <h3 className="landing__section-title">Core development methods</h3>
         </Col>
       </Row>
       <Row>
